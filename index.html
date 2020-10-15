@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<title>25Watts</title>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body class="position-relative">
+		<div class="position-absolute h-100 w-100">
+			<nav class="navbar navbar-expand-xl navbar-dark justify-content-between px-5 py-0 sticky-top orange transparent">
+				<img src="./images/logo.png" alt="logo" class="navbar-brand p-4 p-xl-4" href="#" />
+				<button
+					class="navbar-toggler collapsed orange"
+					type="button"
+					data-toggle="collapse"
+					data-target="#Navbar"
+					aria-controls="Navbar"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div id="Navbar" class="collapse navbar-collapse justify-content-end align-self-stretch">
+					<ul class="navbar-nav align-self-stretch">
+						<a href="#Home" class="p-4 p-xl-4 nav-link align-items-center d-inline-flex active-item text-white">Home</a>
+						<a href="#About" class="p-4 p-xl-4 nav-link align-items-center d-inline-flex text-white">About</a>
+						<a href="#Servicies" class="p-4 p-xl-4 nav-link align-items-center d-inline-flex text-white">Servicies</a>
+						<a href="#Product" class="p-4 p-xl-4 nav-link align-items-center d-inline-flex text-white">Product</a>
+						<a href="#Contact" class="p-4 p-xl-4 nav-link align-items-center d-inline-flex text-white">Contact</a>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div class="container mw-100">
+			<div id="Home" class="row">
+				<div class="col-12 p-0">
+					<div id="Carousel" class="carousel slide position-relative" data-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block w-100" src="./images/img_slider_01.png" alt="First slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="./images/img_slider_02.png" alt="Second slide" />
+							</div>
+							<div class="carousel-item">
+								<img class="d-block w-100" src="./images/img_slider_01.png" alt="Third slide" />
+							</div>
+						</div>
+						<div class="row w-100 h-100 align-items-center carouselOverlay position-absolute px-4 top-0 m-0">
+							<div class="col-8 col-lg-6 mb-md-4 mx-0 mx-xl-5">
+								<div class="title mb-md-4 mb-2">Sed ut perspiciatis unde omnis iste natus</div>
+								<div class="text w-75">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</div>
+								<div class="orange d-inline-block my-3 my-sm-2 my-md-4 my-xl-3 p-3 p-xl-3 badge badge-pill text-light">Read more</div>
+								<ol class="carousel-indicators position-static justify-content-start m-0">
+									<li class="m-1 m-xl-2 active" data-target="#Carousel" data-slide-to="0" class="active"></li>
+									<li class="m-1 m-xl-2" data-target="#Carousel" data-slide-to="1"></li>
+									<li class="m-1 m-xl-2" data-target="#Carousel" data-slide-to="2"></li>
+								</ol>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="About" class="row position-relative my-5 justify-content-center">
+				<div class="orangeBar position-absolute left-0"></div>
+				<div class="col-8">
+					<div class="content">
+						<div class="textContainer mx-auto">
+							<div class="title">
+								We Help Businesses<br />
+								<div class="orangeText">Grow and Innovate</div>
+							</div>
+							<div class="text">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+								eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+								voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+								voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+								velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim
+								ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+								consequatur?
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Servicies" class="row justify-content-center position-relative">
+				<div class="col-9 lightgrayBG position-absolute h-100 left-0"></div>
+				<div class="col-3 darkgrayBG position-absolute h-100 right-0"></div>
+				<div class="col-10 col-xl-8 position-relative p-0 m-5">
+					<img src="./images/BG.png" alt="BG.png" class="img-fluid w-100" />
+					<div class="row w-100 position-absolute justify-content-end align-content-end h-100 top-0 m-0">
+						<div
+							id="ServiciesCarousel"
+							class="col-12 col-lg-8 col-xl-6 h-50 serviciesContainer p-0 carousel slide position-relative"
+							data-ride="carousel"
+						>
+							<div class="carousel-inner text-light h-100 d-flex align-items-center">
+								<div class="carousel-item px-5 active">
+									<div class="subTitle">Lorem ipsum dolor sit amet</div>
+									<div class="title">consectetur adipiscing elit</div>
+									<div class="text">
+										sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+										exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+									</div>
+								</div>
+								<div class="carousel-item px-5">
+									<div class="subTitle">Duis aute irure dolor in reprehenderit</div>
+									<div class="title">voluptate velit esse cillum</div>
+									<div class="text">
+										dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+										deserunt mollit anim id est laborum
+									</div>
+								</div>
+								<div class="carousel-item px-5">
+									<div class="subTitle">omnis iste natus error sit voluptatem</div>
+									<div class="title">Sed ut perspiciatis</div>
+									<div class="text">
+										accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+										architecto beatae vitae dicta sunt explicabo
+									</div>
+								</div>
+							</div>
+							<div class="controlsContainer position-absolute right-0 bottom-0 p-1 p-xl-3">
+								<a
+									class="carousel-control rounded-circle d-inline-flex align-items-center"
+									href="#ServiciesCarousel"
+									role="button"
+									data-slide="prev"
+								>
+									<span class="carousel-control-prev-icon m-auto" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a
+									class="carousel-control rounded-circle d-inline-flex align-items-center"
+									href="#ServiciesCarousel"
+									role="button"
+									data-slide="next"
+								>
+									<span class="carousel-control-next-icon m-auto" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Product" class="row position-relative justify-content-center">
+				<div class="col-4 col-xl-5 position-absolute h-100 left-0"></div>
+				<div class="col-8 col-xl-7 position-absolute h-100 right-0 p-0 productBG"></div>
+				<div class="col-12 position-relative p-5 p-xl-5">
+					<div class="row">
+						<div class="col-1"></div>
+						<div class="col-10 col-xl-6 py-5">
+							<div id="accordion" class="">
+								<div class="card rounded-0 border-0">
+									<div
+										class="card-header d-inline-flex justify-content-between align-items-center"
+										id="headingOne"
+										data-toggle="collapse"
+										data-target="#collapseOne"
+										aria-expanded="true"
+										aria-controls="collapseOne"
+									>
+										Sed ut perspiciatis
+										<img src="./images/chevron-down-solid copia.png" alt="arrow" class="h-50 w-auto reverse" />
+									</div>
+									<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+										<div class="card-body border-top-0">
+											Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+											numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+											minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+											commodi consequatur?
+										</div>
+									</div>
+								</div>
+
+								<div class="card rounded-0 border-0">
+									<div
+										class="card-header d-inline-flex justify-content-between align-items-center"
+										id="headingTwo"
+										data-toggle="collapse"
+										data-target="#collapseTwo"
+										aria-expanded="true"
+										aria-controls="collapseTwo"
+									>
+										Ut enim ad minima veniam
+										<img src="./images/chevron-down-solid copia.png" alt="arrow" class="h-50 w-auto" />
+									</div>
+									<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+										<div class="card-body border-top-0">
+											Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+											numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+											minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+											commodi consequatur?
+										</div>
+									</div>
+								</div>
+
+								<div class="card rounded-0 border-0">
+									<div
+										class="card-header d-inline-flex justify-content-between align-items-center border-bottom-0"
+										id="headingThree"
+										data-toggle="collapse"
+										data-target="#collapseThree"
+										aria-expanded="true"
+										aria-controls="collapseThree"
+									>
+										Sit amet, consectetur, adipisci
+										<img src="./images/chevron-down-solid copia.png" alt="arrow" class="h-50 w-auto" />
+									</div>
+									<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+										<div class="card-body border-bottom-0">
+											Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
+											numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
+											minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
+											commodi consequatur?
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="Contact" class="row position-relative">
+				<div class="col-8 lightgrayBG position-absolute h-100 left-0"></div>
+				<div class="col-4 darkgrayBG position-absolute h-100 right-0"></div>
+				<div class="col-12 position-relative p-0 my-5">
+					<div class="row justify-content-center w-100 m-0">
+						<div class="col-10 col-lg-5 my-auto">
+							<div class="title pb-5">
+								Get in touch <br />
+								<div class="orangeText">We are hiring!</div>
+							</div>
+							<div class="inputs w-100">
+								<input class="border-0 w-100 p-2 p-xl-2" type="text" placeholder="Nombre y apellido" name="nombre" />
+								<input class="border-0 w-100 p-2 p-xl-2" type="text" placeholder="E-mail" name="mail" />
+								<input class="border-0 w-100 p-2 p-xl-2" type="text" placeholder="Tel.:" name="telefono" />
+								<div class="border-0 text p-2 p-xl-2">Mensaje</div>
+								<textarea class="border-0 w-100 p-2 p-xl-2" name="mensaje" rows="3"></textarea>
+							</div>
+							<div class="orange d-inline-block my-5 p-3 p-xl-4 badge badge-pill text-light">Send</div>
+						</div>
+						<div class="col-10 col-lg-5 d-flex align-items-center">
+							<div class="w-100 p-xl-5">
+								<img src="./images/Rectángulo 3.png" alt="BG.png" class="img-fluid w-100" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="footer" class="row darkestgrayBG align-items-center">
+				<div class="col-10 text-secondary text">2019 © Todos los derechos reservados.</div>
+				<div class="col-2 p-3 p-xl-3">
+					<div class="h-50 d-inline-block">
+						<img src="./images/logo.png" alt="logo" class="img-fluid" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+		<script src="./jquery.js"></script>
+	</body>
+</html>

@@ -1,0 +1,533 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/* ---------------------------- colours ---------------------------- */
+
+:root {
+	--orange: rgb(224, 117, 47);
+	--lightgray: rgb(242, 244, 241);
+	--darkgray: rgb(220, 225, 218);
+	--darkestgray: rgb(69, 69, 69);
+}
+
+.orange {
+	background-color: var(--orange);
+}
+.orangeText {
+	color: var(--orange);
+}
+
+.darkgrayBG {
+	background-color: var(--darkgray);
+}
+.lightgrayBG {
+	background-color: var(--lightgray);
+}
+.darkestgrayBG {
+	background-color: var(--darkestgray);
+}
+
+.transparent {
+	background-color: transparent;
+}
+
+/* ---------------------------- utilities ---------------------------- */
+
+.top-0 {
+	top: 0;
+}
+.left-0 {
+	left: 0;
+}
+.bottom-0 {
+	bottom: 0;
+}
+.right-0 {
+	right: 0;
+}
+
+/* ---------------------------- styles ---------------------------- */
+
+.badge {
+	cursor: pointer;
+}
+
+/* ---------------------------- media queries ---------------------------- */
+
+@media (max-width: 575px) {
+	#Carousel .title {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	#Carousel .text {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	#Carousel .carouselOverlay {
+		align-content: end;
+	}
+
+	#About .title {
+		font-size: 35px;
+		line-height: 35px;
+		margin-bottom: 35px;
+	}
+
+	#Servicies .subTitle {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#Servicies .title {
+		font-size: 20px;
+		line-height: 22px;
+		margin-bottom: 10px;
+	}
+	#Servicies .text {
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	#Contact .title {
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+
+@media (min-width: 576px) {
+	#Carousel .title {
+		font-size: 25px;
+		line-height: 30px;
+	}
+	#Carousel .text {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	#Carousel .carouselOverlay {
+		align-content: end;
+	}
+
+	#About .title {
+		font-size: 35px;
+		line-height: 35px;
+		margin-bottom: 35px;
+	}
+
+	#Servicies .subTitle {
+		font-size: 15px;
+		line-height: 10px;
+	}
+	#Servicies .title {
+		font-size: 20px;
+		line-height: 22px;
+		margin-bottom: 13px;
+	}
+	#Servicies .text {
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	#Contact .title {
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+
+@media (min-width: 768px) {
+	#Carousel .title {
+		font-size: 30px;
+		line-height: 35px;
+	}
+	#Carousel .badge {
+		font-size: 15px;
+	}
+
+	#About .title {
+		font-size: 35px;
+		line-height: 38px;
+		margin-bottom: 35px;
+	}
+
+	#Servicies .subTitle {
+		font-size: 20px;
+		line-height: 15px;
+	}
+	#Servicies .title {
+		font-size: 25px;
+		line-height: 28px;
+		margin-bottom: 13px;
+	}
+	#Servicies .text {
+		font-size: 15px;
+		line-height: 18px;
+	}
+}
+
+@media (min-width: 992px) {
+	#Carousel .carouselOverlay {
+		align-content: center;
+	}
+	#Carousel .title {
+		font-size: 40px;
+		line-height: 45px;
+	}
+	#Carousel .text {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	#About .title {
+		font-size: 40px;
+		line-height: 42px;
+	}
+
+	#Servicies .subTitle {
+		font-size: 22px;
+		line-height: 25px;
+	}
+	#Servicies .title {
+		font-size: 30px;
+		line-height: 32px;
+		margin-bottom: 18px;
+	}
+	#Servicies .text {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+	#Contact .title {
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+
+@media (min-width: 1200px) {
+	#Carousel .title {
+		font-size: 4.5vw;
+		line-height: 4.5vw;
+	}
+	#Carousel .text {
+		font-size: 1.5vw;
+		line-height: 1.6vw;
+	}
+	#Carousel .badge {
+		font-size: 1.3vw;
+	}
+
+	#About .title {
+		font-size: 3.5vw;
+		line-height: 3.5vw;
+		margin-bottom: 3vw;
+	}
+
+	/* navbar */
+	/* .navbar a {
+		text-decoration: none;
+	}
+	.nav-link {
+		cursor: pointer;
+		transition: 0.2s;
+	}
+	.nav-link:hover {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	.active-item {
+		position: relative;
+	}
+	.active-item:before {
+		content: '';
+		position: absolute;
+		bottom: -4px;
+		width: 100%;
+		height: 0;
+		left: 0;
+		border-bottom: 6px solid var(--orange);
+	} */
+
+	/* home - carousel */
+	/* #Carousel .carouselOverlay {
+		color: white;
+	}
+	#Carousel .title {
+		font-size: 3vw;
+		line-height: 3vw;
+		font-weight: bold;
+	}
+	#Carousel .text {
+		font-size: 1vw;
+	}
+	#Carousel .badge {
+		min-width: 25%;
+		font-size: 1vw;
+	}
+	#Carousel .carousel-indicators li {
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		transition: ease;
+	}
+	#Carousel .carousel-indicators li.active {
+		background-color: var(--orange);
+	} */
+
+	/* about */
+	/* #About .orangeBar {
+		width: 20px;
+		height: 100%;
+		background-color: var(--orange);
+	}
+	#About .textContainer {
+		max-width: 800px;
+	}
+	#About .title {
+		font-size: 40px;
+		font-weight: bold;
+		line-height: 40px;
+		margin-bottom: 40px;
+	} */
+
+	/* servicies */
+	/* #Servicies .serviciesContainer {
+		background-color: var(--orange);
+	}
+	#Servicies .carousel-control {
+		background-color: rgba(0, 0, 0, 0.3);
+		width: 25px;
+		height: 25px;
+		transition: 0.2s;
+	}
+	#Servicies .carousel-control:hover {
+		background-color: white;
+	}
+	#Servicies .carousel-control-prev-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e0752f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	}
+	#Servicies .carousel-control-next-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e0752f' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+	}
+	#Servicies .subTitle {
+		font-size: 1.5vw;
+	}
+	#Servicies .title {
+		font-size: 3vw;
+		font-weight: bold;
+		line-height: 3vw;
+		margin-bottom: 2vw;
+	}
+	#Servicies .text {
+		font-size: 1vw;
+	} */
+
+	/* product */
+	/* #Product .productBG {
+		background-image: url('./images/Bg-Product-section.png');
+		background-position: center;
+		background-size: cover;
+	}
+	#Product #accordion {
+		border: 1px solid rgba(0, 0, 0, 0.125);
+	}
+	#Product .card-body {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+		border-top: 1px solid rgba(0, 0, 0, 0.125);
+	}
+	#Product .arrow {
+		transition: ease;
+	}
+	#Product .reverse {
+		transform: scaleY(-1);
+	} */
+
+	/* contact */
+	/* #Contact .title {
+		font-size: 2vw;
+		line-height: 2vw;
+		font-weight: bold;
+	}
+	#Contact .text {
+		color: rgb(95, 99, 104);
+		font-size: 0.8vw;
+		font-weight: bold;
+	}
+	#Contact .inputs,
+	#Contact .inputs * {
+		background: transparent;
+	}
+	#Contact .inputs input,
+	#Contact .inputs textarea {
+		border-bottom: 1px solid rgb(190, 190, 190) !important;
+		transition: 0.4s;
+	}
+	#Contact .inputs input:focus,
+	#Contact .inputs textarea:focus {
+		border-bottom: 1px solid var(--orange) !important;
+		outline: none;
+		color: var(--orange);
+	}
+	#Contact .inputs input::placeholder,
+	#Contact .inputs textarea::placeholder {
+		font-weight: bold;
+		font-size: 15px;
+		transition: 0.4s;
+	}
+	#Contact .inputs input:focus::placeholder,
+	#Contact .inputs textarea:focus::placeholder {
+		color: var(--orange);
+		opacity: 1;
+	}
+	#Contact textarea {
+		resize: none;
+	}
+	#Contact .badge {
+		font-size: 15px;
+		min-width: 30%;
+	} */
+}
+
+/*  less than 576px wide  */
+
+/* navbar */
+.navbar {
+	border-bottom: 2px solid var(--orange);
+	transition: ease 0.25s;
+}
+.navbar a {
+	text-decoration: none;
+}
+.nav-link {
+	cursor: pointer;
+	transition: 0.2s;
+}
+.nav-link:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.active-item {
+	position: relative;
+}
+.active-item:before {
+	content: '';
+	position: absolute;
+	bottom: -4px;
+	width: 100%;
+	height: 0;
+	left: 0;
+	border-bottom: 6px solid var(--orange);
+}
+
+/* home - carousel */
+#Carousel .carouselOverlay {
+	color: white;
+}
+#Carousel .title {
+	font-weight: bold;
+}
+#Carousel .badge {
+	min-width: 25%;
+}
+#Carousel .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	transition: ease;
+}
+#Carousel .carousel-indicators li.active {
+	background-color: var(--orange);
+}
+
+/* about */
+#About .orangeBar {
+	width: 20px;
+	height: 100%;
+	background-color: var(--orange);
+}
+#About .textContainer {
+	max-width: 800px;
+}
+#About .title {
+	font-weight: bold;
+}
+
+/* servicies */
+#Servicies .serviciesContainer {
+	background-color: var(--orange);
+}
+#Servicies .carousel-control {
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 25px;
+	height: 25px;
+	transition: 0.2s;
+}
+#Servicies .carousel-control:hover {
+	background-color: white;
+}
+#Servicies .carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e0752f' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+#Servicies .carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23e0752f' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+#Servicies .title {
+	font-weight: bold;
+}
+
+/* product */
+#Product .productBG {
+	background-image: url('./images/Bg-Product-section.png');
+	background-position: center;
+	background-size: cover;
+}
+#Product #accordion {
+	border: 1px solid rgba(0, 0, 0, 0.125);
+}
+#Product .card-body {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+	border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+#Product .arrow {
+	transition: ease;
+}
+#Product .reverse {
+	transform: scaleY(-1);
+}
+
+/* contact */
+#Contact .title {
+	font-weight: bold;
+}
+#Contact .text {
+	color: rgb(95, 99, 104);
+	font-weight: bold;
+}
+#Contact .inputs,
+#Contact .inputs * {
+	background: transparent;
+}
+#Contact .inputs input,
+#Contact .inputs textarea {
+	border-bottom: 1px solid rgb(190, 190, 190) !important;
+	transition: 0.4s;
+}
+#Contact .inputs input:focus,
+#Contact .inputs textarea:focus {
+	border-bottom: 1px solid var(--orange) !important;
+	outline: none;
+	color: var(--orange);
+}
+#Contact .inputs input::placeholder,
+#Contact .inputs textarea::placeholder {
+	font-weight: bold;
+	font-size: 15px;
+	transition: 0.4s;
+}
+#Contact .inputs input:focus::placeholder,
+#Contact .inputs textarea:focus::placeholder {
+	color: var(--orange);
+	opacity: 1;
+}
+#Contact textarea {
+	resize: none;
+}
+#Contact .badge {
+	font-size: 15px;
+	min-width: 20%;
+}
